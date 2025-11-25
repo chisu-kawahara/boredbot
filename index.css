@@ -1,7 +1,7 @@
 body {
     background: #bdc3c7;  /* fallback for old browsers */
     background: linear-gradient(to top,#2980b9,#6DD5FA);
-    background-repeat: no-repeat;
+
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,4 +28,10 @@ button {
     margin-top: 2rem;
     font-size: 50px;
 
+}
+
+.fun {
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f7b733, #fc4a1a);
 }
