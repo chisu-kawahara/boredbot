@@ -1,0 +1,10 @@
+body {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: linear-gradient(#2980b9,#6DD5FA);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Oxygen, sans-serif;
+}
