@@ -6,5 +6,6 @@ getActivity.addEventListener("click", ()=>{
   .then (data => {
     console.log(data)
     document.getElementById("activity").textContent = data.activity
+    document.getElementById("page-title").textContent = "Yaay-Bot🤖❣️"
   })
 })

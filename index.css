@@ -1,6 +1,6 @@
 body {
     background: #bdc3c7;  /* fallback for old browsers */
-    background: linear-gradient(#2980b9,#6DD5FA);
+    background: linear-gradient(to top,#2980b9,#6DD5FA);
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -14,7 +14,8 @@ body {
 section {
     display: flex;
     flex-direction: column;
-    align-items: center;   /* center content inside */
+    align-items: center; 
+    margin-top: 2rem;
 }
 
 button {
@@ -24,5 +25,7 @@ button {
     background-color: red;
     border: 1px solid darkred;
     cursor: pointer;
+    margin-top: 2rem;
+    font-size: 50px;
 
 }
